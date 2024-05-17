@@ -38,6 +38,7 @@ nav{
     position: fixed;
     left: -60%;
     transition: 1s;
+    z-index: 3;
 }
 .side-navbar a{
     text-decoration: none;
@@ -265,7 +266,8 @@ h3{
         padding-left: 20px;
         padding-top: 15px;
         padding-right:60px;
-        padding-bottom: 50px;
+        padding-bottom: 125px;
+        margin-right: 20px;
     }
  
 }
