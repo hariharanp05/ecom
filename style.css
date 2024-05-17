@@ -1,0 +1,271 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navbar-link{
+    
+    display: flex;
+    column-gap: 20px;
+    
+    color: rgb(26, 25, 25);
+}
+.navbar-link a{
+    text-decoration: none;
+    color: black;
+    
+}
+.navbar-link a:hover{
+    text-decoration: underline;
+}
+.navbar-icon-toggle{
+    display: none;
+}
+.side-navbar{
+    width: 50%;
+    background-color: rgb(1, 1, 43);
+    color: white;
+    padding: 20px;
+    height: 100%;
+    position: fixed;
+    left: -60%;
+    transition: 1s;
+}
+.side-navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+.side-navbar-link a:hover{
+    text-decoration: underline;
+}
+.side-navbar-link{
+    margin-bottom: 30px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    column-gap: 20px;
+
+}
+
+.container1 h2{
+    padding: 10px;
+    font-size: 40px;
+}
+.container1 button{
+    padding: 10px;
+    color: white;
+    border: none;
+    background-color: black;
+    margin: 10px;
+}
+.container1 p{
+    padding: 10px;
+    font-size: large;
+}
+.content{
+    padding: 30px 5px;
+    font-size: 20px;
+}
+
+.content div{
+    display:flex ;
+    justify-content: space-between;
+}
+.service{
+    display: flex;
+   justify-content: space-between;
+   padding: 10px;
+}
+.service div{
+    background-color: rgb(231, 229, 229);
+    padding: 5px;
+}
+.arrivals{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.arrivals img{
+    position: relative;
+    flex-basis: 20% ;
+}
+.arrivals button{
+    padding: 5px 10px;
+   position: relative;
+    left: -130px;
+    bottom: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+h3{
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+.news{
+    display: flex;
+    
+    margin-top: 10px;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+.news h2{
+    padding: 10px;
+    font-size: 40px;
+}
+.news p{
+   padding: 10px;
+   font-size: 20px;
+}
+.news input{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+.suscribe{
+    margin-top: 10px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.search{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    margin-top: 25px;
+    
+}
+.search input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+
+}
+.search input:focus{
+    outline: none;
+
+}
+.coll{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+}
+.coll div{
+    flex-basis: 20%;
+}
+
+.contact{
+    width: 70%;
+    background-color: rgb(14, 10, 20);
+    color: white;
+    height: 600px;
+    margin: 50px 230px;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.con{
+    font-size: 60px;
+    padding: 10px;
+
+}
+.nam{
+    font-size: 30px;
+    padding: 10px;
+
+}
+.namin{
+    padding: 10px 50px 10px 3px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 25px;
+    width: 90%;
+    
+}
+.namin,.mess:focus{
+    outline: none;
+
+}
+.mess{
+    padding: 10px 50px 10px 3px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 25px;
+    width: 90%;
+    height: 200px;
+    
+}
+.consub{
+    padding: 10px 20px;
+    background-color: rgb(14, 139, 14);
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+@media screen and (max-width:700px) {
+    .navbar-icon-toggle{
+        display: block;
+    }
+    .navbar-link{
+        display: none;
+    }
+    .container2{
+        display: none;
+    }
+    .content div{
+        display: none;
+    }
+    .service{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .contact{
+        margin: 30px;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right:60px;
+        padding-bottom: 50px;
+    }
+ 
+}
